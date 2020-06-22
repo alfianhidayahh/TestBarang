@@ -19,7 +19,6 @@ public class Barang implements Serializable {
     public String getNama() {
         return nama;
     }
-
     public void setNama(String nama){
         this.nama = nama;
     }

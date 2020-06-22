@@ -11,9 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LihatBarang"
+        <activity
+            android:name=".UpdateData"
+            android:label="Update Barang">
+
+        </activity>
+        <activity
+            android:name=".LihatBarang"
             android:label="@string/txtJudul3">
-            ></activity>
+        </activity>
         <activity
             android:name=".TambahData"
             android:label="@string/txtJudul2" />
